@@ -40,24 +40,6 @@ function makeConversionPouzece(art) {
     fbq('track', 'InitiateCheckout');
     ga('send', 'event','kupovina', 'pouzece', art);
 }
-
-function getReqParam(name){
-   if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
-      return decodeURIComponent(name[1]);
-}
-
-function getCookie(name) {
-  var value = "; " + document.cookie;
-  var parts = value.split("; " + name + "=");
-  if (parts.length == 2) return parts.pop().split(";").shift();
-}
-
-if(typeof getCookie("affTrckValue") === "undefined") {
-    var trc=getReqParam('affTrckId');
-    var cookieDate = new Date;
-    cookieDate.setMonth(cookieDate.getMonth() +3);
-    document.cookie = 'affTrckValue='+ trc +'; expires=' + cookieDate.toGMTString() + ';';
-}
 </script>
 </head>
 <body id="top"><!--[if lt IE 9]>
@@ -129,24 +111,28 @@ if(typeof getCookie("affTrckValue") === "undefined") {
 <!--    
 <div class="slovarica-discount">
     <div class="slovarica-discount-oldprice">260,00</div>
-    <div class="slovarica-discount-newprice">150,00</div>
+    <div class="slovarica-discount-newprice">170,00</div>
 </div>
 -->
-<div class="slovarica-price"><span class="slovarica-price-number">150,00 HRK</span> <span class="slovarica-price-currency">Dostava unutar<br />
-Hrvatske 25,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
-
-<a class="slovarica-price-number" onclick="makeConversionPouzece('brojke');" href="/narudzba_test.html">Klikni za narudžbu pouzećem</a>
+<div class="slovarica-price"><span class="slovarica-price-number">170,00 HRK</span> <span class="slovarica-desc">Dostava unutar<br />
+Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
+<!--
+<a class="slovarica-price-number" onclick="makeConversionPouzece('brojke');" href="/narudzba.html">Klikni za narudžbu pouzećem</a> -->
 <br />
+<p class="slovarica-price-number-disabled">PRODANO</p> 
+<!--
 Rok dostave 5 radnih dana.</p>
+<br />
 
-<p class="slovarica-price-number">PayPal</p>
+
+<p class="slovarica-price-number">Za kupovinu preko PayPal dostava besplatna.</p>
 <div class="btngroup">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" onsubmit="return makeConversionPayPal('brojke')">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="942P3AJHZCRSU">
 <table>
 <tr><td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td></tr><tr><td><select name="os0">
-	<option value="Croatia">Croatia €20.00 EUR</option>
+	<option value="Croatia">Croatia €24.00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -155,7 +141,10 @@ Rok dostave 5 radnih dana.</p>
 </form>
 
 
+
+
 </div>
+-->
 </div>
 </div>
 
@@ -213,27 +202,30 @@ Rok dostave 5 radnih dana.</p>
 <!--    
 <div class="slovarica-discount">
     <div class="slovarica-discount-oldprice">260,00</div>
-    <div class="slovarica-discount-newprice">180,00</div>
+    <div class="slovarica-discount-newprice">200,00</div>
 </div>
 -->
 
-<div class="slovarica-price"><span class="slovarica-price-number">180,00 HRK</span> <span class="slovarica-price-currency">Dostava unutar<br />
-Hrvatske 25,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
+<div class="slovarica-price"><span class="slovarica-price-number">200,00 HRK</span> <span class="slovarica-desc">Dostava unutar<br />
+Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
 
-<!--<a class="slovarica-price-number" onclick="makeConversionPouzece('slova_hr');" href="/narudzba_test.html">Klikni za narudžbu pouzećem</a> -->
+<a class="slovarica-price-number" onclick="makeConversionPouzece('slova_hr');" href="/narudzba.html">Klikni za narudžbu pouzećem</a> 
 <br />
-<p class="slovarica-price-number-disabled">PRODANO</p>
-<!-- Prodano.</p> -->
-
 <!--
-<p class="slovarica-price-number">PayPal</p>
+<p class="slovarica-price-number-disabled">PRODANO</p> 
+-->
+<br />
+Rok dostave 5 radnih dana.</p>
+<br />
+
+<p class="slovarica-price-number">Za kupovinu preko PayPal dostava besplatna.</p>
 <div class="btngroup">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"  onsubmit="return makeConversionPayPal('slova_hr')">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="3DBAYVCDNGREC">
 <table>
 <tr><td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td></tr><tr><td><select name="os0">
-	<option value="Croatia">Croatia €24.00 EUR</option>
+	<option value="Croatia">Croatia €27.00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -242,8 +234,9 @@ Hrvatske 25,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
 </form>
 
 
+
 </div>
--->
+
 </div>
 </div>
 
@@ -302,26 +295,26 @@ Hrvatske 25,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
 </div>
 -->
 
-<div class="slovarica-price"><span class="slovarica-price-number">180,00 HRK</span> <span class="slovarica-price-currency">Dostava unutar<br />
-Hrvatske 25,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
+<div class="slovarica-price"><span class="slovarica-price-number">200,00 HRK</span> <span class="slovarica-desc">Dostava unutar<br />
+Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
 
-<!--
-<a class="slovarica-price-number" onclick="makeConversionPouzece('slova_en');" href="/narudzba_test.html">Klikni za narudžbu pouzećem</a> -->
+
+<a class="slovarica-price-number" onclick="makeConversionPouzece('slova_en');" href="/narudzba.html">Klikni za narudžbu pouzećem</a> 
 <br />
-<p class="slovarica-price-number-disabled">PRODANO</p>
+<!-- <p class="slovarica-price-number-disabled">PRODANO</p> -->
 
-<!--
+
 Rok dostave 5 radnih dana.</p>
+<br />
 
-
-<p class="slovarica-price-number">PayPal</p>
+<p class="slovarica-price-number">Za kupovinu preko PayPal dostava besplatna.</p>
 <div class="btngroup">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"  onsubmit="return makeConversionPayPal('slova_en')">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3DBAYVCDNGREC">
+<input type="hidden" name="hosted_button_id" value="CSDW2G9APZ7U8">
 <table>
 <tr><td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td></tr><tr><td><select name="os0">
-	<option value="Croatia">Croatia €24.00 EUR</option>
+	<option value="Croatia">Croatia €27.00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -329,8 +322,9 @@ Rok dostave 5 radnih dana.</p>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+
 </div>
--->
+
 </div>
 </div>
 
@@ -386,34 +380,35 @@ Rok dostave 5 radnih dana.</p>
 </div>
 -->
 
-<div class="slovarica-price"><span class="slovarica-price-number">180,00 HRK</span> <span class="slovarica-price-currency">Dostava unutar<br />
-Hrvatske 25,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
-<!--
-<a class="slovarica-price-number" onclick="makeConversionPouzece('slova_de');" disabled="true" href="/narudzba_test.html">Klikni za narudžbu pouzećem</a>
--->
+<div class="slovarica-price"><span class="slovarica-price-number">200,00 HRK</span> <span class="slovarica-desc">Dostava unutar<br />
+Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvarujete besplatnu po&scaron;tarinu, a ako se odlučite za kupovinu jednog proizvoda, platite ga putem PayPal usluge i na taj način također ostvarite besplatnu dostavu.</span></div>
+
+<a class="slovarica-price-number" onclick="makeConversionPouzece('slova_de');" disabled="true" href="/narudzba.html">Klikni za narudžbu pouzećem</a>
+
 
 <br />
-<p class="slovarica-price-number-disabled">PRODANO</p>
-<!--
-Rok dostave 5 radnih dana.</p>
+<!-- <p class="slovarica-price-number-disabled">PRODANO</p> -->
 
-<p class="slovarica-price-number">PayPal</p>
+Rok dostave 5 radnih dana.</p>
+<br />
+<p class="slovarica-price-number">Za kupovinu preko PayPal dostava besplatna.</p>
 <div class="btngroup">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"  onsubmit="return makeConversionPayPal('slova_de')">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3DBAYVCDNGREC">
+<input type="hidden" name="hosted_button_id" value="TPGV46W6NFCH2">
 <table>
 <tr><td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td></tr><tr><td><select name="os0">
-	<option value="Croatia">Croatia €24.00 EUR</option>
+	<option value="Croatia">Croatia €27.00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" disabled="false">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+
 </div>
--->
+
 </div>
 </div>
 

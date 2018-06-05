@@ -1,0 +1,50 @@
+#!/usr/bin/perl -w
+use strict;
+use warnings;
+use cPanelUserConfig;
+use CGI;
+use URI::Escape;
+
+my $cgi = CGI->new();
+my $subject = uri_unescape($cgi->param( "msubject" ));
+my $body = uri_unescape($cgi->param( "mbody" ));
+
+my $fname = $$.time;
+
+my $outfile = "/home/pongehr/orders/order_$fname";
+open (FILE, ">> $outfile") || die "problem opening $outfile\n";
+print FILE "Narudzba $subject \n";
+print FILE "$body";
+close(FILE);
+
+
+my $returnCode = 200;
+if( $returnCode != 0 ){
+   print "Status: 500 Internal Error\n";
+}else{
+   print "Status: 200 OK\n";
+}
+#print "Status: 200 OK\n";
+print "Content-Type: text/html; charset=UTF-8\n";
+print "\n";
+
+print "<!doctype html>";
+print "<title>Potvrda</title>";
+print "<style>";
+print "  body { text-align: center; padding: 150px; }";
+print "  h1 { font-size: 50px; }";
+print "  body { font: 20px Helvetica, sans-serif; color: #333; }";
+print "  article { display: block; text-align: left; width: 650px; margin: 0 auto; }";
+print "  a { color: #dc8100; text-decoration: none; }";
+print "  a:hover { color: #333; text-decoration: none; }";
+print "</style>";
+
+print "<article>";
+print "    <h1>Hvala na narudžbi</h1>";
+print "    <div>";
+print "        <p>$subject</p>";
+print "       <p>$body</p>";
+print "    </div>";
+  
+print "</article>";
+print "<a href=\"http://www.ponge.hr/index.html\">Klikni za povratak</a>";

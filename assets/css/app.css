@@ -1808,3 +1808,8 @@ select {
   .word-wrap-fix {
     word-wrap: break-word;
     max-width: 265px; } }
+
+.narzudzba-table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}

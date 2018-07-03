@@ -1,72 +1,88 @@
 <!DOCTYPE html>
 <html lang="hr-HR"><!--<![endif]-->
-<>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Ponge</title>
-<meta name="description" content="Idealna igra za Vašu djecu">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
-<link href="favicon.png" rel="shortcut icon" type="image/png"/>
-<link href="assets/css/app.css" rel="stylesheet"/>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ponge</title>
+    <meta name="description" content="Idealna igra za Vašu djecu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
+    <link href="favicon.png" rel="shortcut icon" type="image/png"/>
+    <link href="assets/css/app.css" rel="stylesheet"/>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-67156013-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-67156013-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq)return;
-        n = f.fbq = function () {
-            n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq)f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '257967607936274');
-    fbq('track', 'PageView');
-</script>
-<script type="text/javascript" src="https://www.affiliatly.com/easy_affiliate.js"></script>
-<script type="text/javascript">startTracking('AF-1014056');</script>
-<noscript>
-    <img height="1" width="1"
-         src="https://www.facebook.com/tr?id=257967607936274&ev=PageView
+    </script>
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '257967607936274');
+        fbq('track', 'PageView');
+    </script>
+    <script type="text/javascript" src="https://www.affiliatly.com/easy_affiliate.js"></script>
+    <script type="text/javascript">startTracking('AF-1014056');</script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=257967607936274&ev=PageView
             &noscript=1"/>
-</noscript>
-<script>
-    function makeConversionPayPal(art) {
-        fbq('track', 'InitiateCheckout');
-        ga('send', 'event', 'kupovina', 'paypal', art);
-        return true;
-    }
-    function makeConversionPouzece(art) {
-        fbq('track', 'InitiateCheckout');
-        ga('send', 'event', 'kupovina', 'pouzece', art);
-        markPurchase('AF-1014056', 'xxx1', '200');
-    }
-</script>
+    </noscript>
+    <script>
+        function makeConversionPayPal(art) {
+            fbq('track', 'InitiateCheckout');
+            ga('send', 'event', 'kupovina', 'paypal', art);
+            return true;
+        }
+        function makeConversionPouzece(art) {
+            fbq('track', 'InitiateCheckout');
+            ga('send', 'event', 'kupovina', 'pouzece', art);
+        }
+
+        function makeOrder(pp_but) {
+            var orderNumber
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == XMLHttpRequest.DONE) {
+                    orderNumber = xhr.responseText;
+                    document.getElementById(pp_but).value = orderNumber;
+
+                }
+            }
+            xhr.open('GET', 'https://api.kt-vf-dev.hr/ponge/api/order', false);
+            xhr.send(null);
+            markPurchase('AF-1014056', orderNumber, 0)
+
+            return true;
+        }
+    </script>
 </head>
 <body id="top" onload=""><!--[if lt IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -171,13 +187,16 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="942P3AJHZCRSU">
+                             <input id="pp_brojevi_naru" type="hidden" name="custom" value="">
+                             <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                             <table>
                             <tr><td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td></tr><tr><td><select name="os0">
                                 <option value="Croatia">Croatia €24.00 EUR</option>
                             </select> </td></tr>
                             </table>
                             <input type="hidden" name="currency_code" value="EUR">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"
+                            onclick="makeOrder('pp_brojevi_naru')">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
 
@@ -285,6 +304,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="3DBAYVCDNGREC">
+                                    <input id="pp_hrv_slov_naru" type="hidden" name="custom" value="">
+                                    <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                                     <table>
                                         <tr>
                                             <td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td>
@@ -298,7 +319,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                     <input type="hidden" name="currency_code" value="EUR">
                                     <input type="image"
                                            src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
-                                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                           name="submit" alt="PayPal - The safer, easier way to pay online!"
+                                           onclick="makeOrder('pp_hrv_slov_naru')">
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1">
                                 </form>
@@ -403,6 +425,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="CSDW2G9APZ7U8">
+                                    <input id="pp_eng_slov_naru" type="hidden" name="custom" value="">
+                                    <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                                     <table>
                                         <tr>
                                             <td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td>
@@ -416,7 +440,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                     <input type="hidden" name="currency_code" value="EUR">
                                     <input type="image"
                                            src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
-                                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                           name="submit" alt="PayPal - The safer, easier way to pay online!"
+                                           onclick="makeOrder('pp_eng_slov_naru')">
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1">
                                 </form>
@@ -519,6 +544,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="TPGV46W6NFCH2">
+                                    <input id="pp_ger_slov_naru" type="hidden" name="custom" value="">
+                                    <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                                     <table>
                                         <tr>
                                             <td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td>
@@ -532,7 +559,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                     <input type="hidden" name="currency_code" value="EUR">
                                     <input type="image"
                                            src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
-                                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                           name="submit" alt="PayPal - The safer, easier way to pay online!"
+                                           onclick="makeOrder('pp_ger_slov_naru')">
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1">
                                 </form>

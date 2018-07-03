@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f50b6b4-21ce-48b6-a64d-ace03f7932ac" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.backup.hr_brisi" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index_test.html" afterPath="$PROJECT_DIR$/index_bak.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/narudzba.html" afterPath="$PROJECT_DIR$/narudzba_bak.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/narudzba_test.html" afterPath="$PROJECT_DIR$/narudzba.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_test.html" afterPath="$PROJECT_DIR$/index_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/narudzba_test.html" afterPath="$PROJECT_DIR$/narudzba_test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ponge_site.iws" afterPath="$PROJECT_DIR$/ponge_site.iws" />
     </list>
     <ignored path="ponge_site.iws" />
@@ -28,37 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2168674">
-              <caret line="286" column="101" selection-start-line="286" selection-start-column="88" selection-end-line="286" selection-end-column="101" />
-              <folding>
-                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-                <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index_test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48765433">
-              <caret line="311" column="30" selection-start-line="311" selection-start-column="30" selection-end-line="311" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.2283737">
+              <caret line="544" column="86" selection-start-line="544" selection-start-column="86" selection-end-line="544" selection-end-column="86" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1530598325589" expanded="true" signature="3275:3428" placeholder="..." />
-                <marker date="1530598325589" expanded="true" signature="3368:3396" placeholder="..." />
+                <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
+                <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -106,9 +88,9 @@
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/mail.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/narudzba_test.html" />
         <option value="$PROJECT_DIR$/index_test.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -524,7 +506,7 @@
       <workItem from="1529133660018" duration="22415000" />
       <workItem from="1529389184455" duration="1907000" />
       <workItem from="1529818453090" duration="4008000" />
-      <workItem from="1530518277587" duration="11585000" />
+      <workItem from="1530518277587" duration="12512000" />
     </task>
     <task id="LOCAL-00001" summary="idea project">
       <created>1528191298390</created>
@@ -548,7 +530,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46352000" />
+    <option name="totallyTimeSpent" value="47279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="720" extended-state="0" />
@@ -567,6 +549,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -577,7 +560,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -618,7 +600,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.html</url>
+          <url>file://$PROJECT_DIR$/index_bak.html</url>
           <line>505</line>
         </line-breakpoint>
       </breakpoints>
@@ -631,7 +613,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="304" column="19" selection-start-line="304" selection-start-column="19" selection-end-line="304" selection-end-column="19" />
@@ -643,13 +625,13 @@
             <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-            <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_test.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -657,8 +639,8 @@
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530598325589" expanded="true" signature="3275:3428" placeholder="..." />
-            <marker date="1530598325589" expanded="true" signature="3368:3396" placeholder="..." />
+            <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
+            <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -671,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
+    <entry file="file://$PROJECT_DIR$/narudzba_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="60" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="60" />
@@ -679,7 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba_test.html">
+    <entry file="file://$PROJECT_DIR$/narudzba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="73" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="73" />
@@ -693,7 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="304" column="19" selection-start-line="304" selection-start-column="19" selection-end-line="304" selection-end-column="19" />
@@ -705,13 +687,13 @@
             <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-            <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_test.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="304" column="106" selection-start-line="304" selection-start-column="90" selection-end-line="304" selection-end-column="106" />
@@ -719,8 +701,8 @@
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530598325589" expanded="true" signature="3275:3428" placeholder="..." />
-            <marker date="1530598325589" expanded="true" signature="3368:3396" placeholder="..." />
+            <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
+            <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -733,7 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
+    <entry file="file://$PROJECT_DIR$/narudzba_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="60" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="60" />
@@ -741,7 +723,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba_test.html">
+    <entry file="file://$PROJECT_DIR$/narudzba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -755,7 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -767,8 +749,8 @@
             <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-            <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -781,7 +763,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
+    <entry file="file://$PROJECT_DIR$/narudzba_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="60" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="60" />
@@ -789,7 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba_test.html">
+    <entry file="file://$PROJECT_DIR$/narudzba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="70" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="70" />
@@ -803,7 +785,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -815,8 +797,8 @@
             <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-            <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -837,7 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
+    <entry file="file://$PROJECT_DIR$/narudzba_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -845,7 +827,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -857,13 +839,13 @@
             <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-            <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
+    <entry file="file://$PROJECT_DIR$/narudzba_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -900,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44126076">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2761394">
@@ -916,7 +890,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba_test.html">
+    <entry file="file://$PROJECT_DIR$/narudzba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.791667">
           <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
@@ -930,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2168674">
           <caret line="286" column="101" selection-start-line="286" selection-start-column="88" selection-end-line="286" selection-end-column="101" />
@@ -942,22 +916,30 @@
             <element signature="n#div#1;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530540197323" expanded="true" signature="2495:2648" placeholder="..." />
-            <marker date="1530540197323" expanded="true" signature="2588:2616" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530540197323" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_test.html">
+    <entry file="file://$PROJECT_DIR$/narudzba_bak.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48765433">
-          <caret line="311" column="30" selection-start-line="311" selection-start-column="30" selection-end-line="311" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6178161">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2283737">
+          <caret line="544" column="86" selection-start-line="544" selection-start-column="86" selection-end-line="544" selection-end-column="86" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530598325589" expanded="true" signature="3275:3428" placeholder="..." />
-            <marker date="1530598325589" expanded="true" signature="3368:3396" placeholder="..." />
+            <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
+            <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
           </folding>
         </state>
       </provider>

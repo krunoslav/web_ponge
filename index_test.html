@@ -76,7 +76,7 @@
 
                 }
             }
-            xhr.open('GET', 'http://88.99.190.137/cgi-bin/gen_order_number', true);
+            xhr.open('GET', 'https://api.kt-vf-dev.hr/ponge/api/order', false);
             xhr.send(null);
             markPurchase('AF-1014056', orderNumber, 0)
 
@@ -187,13 +187,16 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="942P3AJHZCRSU">
+                             <input id="pp_brojevi_naru" type="hidden" name="custom" value="">
+                             <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                             <table>
                             <tr><td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td></tr><tr><td><select name="os0">
                                 <option value="Croatia">Croatia €24.00 EUR</option>
                             </select> </td></tr>
                             </table>
                             <input type="hidden" name="currency_code" value="EUR">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"
+                            onclick="makeOrder('pp_brojevi_naru')">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
 
@@ -300,7 +303,7 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                             <div class="btngroup">
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
-                                    <input type="hidden" name="hosted_button_id" value="2ULKFBPUUBCQL">
+                                    <input type="hidden" name="hosted_button_id" value="3DBAYVCDNGREC">
                                     <input id="pp_hrv_slov_naru" type="hidden" name="custom" value="">
                                     <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                                     <table>
@@ -309,7 +312,7 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                         </tr>
                                         <tr>
                                             <td><select name="os0">
-                                                <option value="Croatia">Croatia €0.01 EUR</option>
+                                                <option value="Croatia">Croatia €27.00 EUR</option>
                                             </select></td>
                                         </tr>
                                     </table>
@@ -422,6 +425,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="CSDW2G9APZ7U8">
+                                    <input id="pp_eng_slov_naru" type="hidden" name="custom" value="">
+                                    <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                                     <table>
                                         <tr>
                                             <td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td>
@@ -435,7 +440,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                     <input type="hidden" name="currency_code" value="EUR">
                                     <input type="image"
                                            src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
-                                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                           name="submit" alt="PayPal - The safer, easier way to pay online!"
+                                           onclick="makeOrder('pp_eng_slov_naru')">
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1">
                                 </form>
@@ -538,6 +544,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="TPGV46W6NFCH2">
+                                    <input id="pp_ger_slov_naru" type="hidden" name="custom" value="">
+                                    <input type="hidden" name="notify_url" value="https://api.kt-vf-dev.hr/ponge/api/ipn">
                                     <table>
                                         <tr>
                                             <td><input type="hidden" name="on0" value="Shipping to:">Shipping to:</td>
@@ -551,7 +559,8 @@ Hrvatske 33,00 HRK.</br></br> Ako naručite dva ili vi&scaron;e proizvoda ostvar
                                     <input type="hidden" name="currency_code" value="EUR">
                                     <input type="image"
                                            src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
-                                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                           name="submit" alt="PayPal - The safer, easier way to pay online!"
+                                           onclick="makeOrder('pp_ger_slov_naru')">
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1">
                                 </form>

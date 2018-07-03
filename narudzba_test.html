@@ -19,7 +19,7 @@
                 orderNumber = xhr.responseText;
             }
         }
-        xhr.open('GET', 'http://api.kt-vf-dev.hr/cgi-bin/gen_order_number', true);
+        xhr.open('GET', 'https://api.kt-vf-dev.hr/ponge/api/order', false);
         xhr.send(null);
     </script>
 
@@ -32,7 +32,19 @@
                 return false;
             }
 
-            x = document.getElementById("post_number").value;
+            x = document.getElementById("adresa").value;
+            if (x == "" || x.length < 5) {
+                alert("Molim unesite adresu broj");
+                return false;
+            }
+
+            x = document.getElementById("city").value;
+            if (x == "" || x.length < 5) {
+                alert("Molim unesite mjesto");
+                return false;
+            }
+
+            x = document.getElementById("postNumber").value;
             if (x == "" || x.length < 5) {
                 alert("Molim unesite poštanski broj");
                 return false;
@@ -114,7 +126,7 @@
 
 <main>
     <div class="slovarica-item">
-        <form action="http://api.kt-vf-dev.hr/cgi-bin/naruci" method="get" target="_top" id="usrform">
+        <form action="https://api.kt-vf-dev.hr/ponge/api/pouzece" method="get" target="_top" id="usrform">
             <p class="slovarica-price-number">Narudžba pouzećem</p>
 
 
@@ -127,16 +139,25 @@
 
                 </tr>
                 <tr>
+                    <td colspan="2">
+                        <p class="slovarica-price-number">Adresa dostave</p>
+                        <input id="adresa" name="adresa" type="text" style="width: 100%">
+                    </td>
+
+
+                </tr>
+                <tr>
                     <td>
-                        <p class="slovarica-price-number">Poštanski broj</p>
-                        <input id="post_number" name="post_number" type="text">
+                        <p class="slovarica-price-number">Mjesto</p>
+                        <input id="city" name="city" type="text">
                     </td>
                     <td>
-                        <p class="slovarica-price-number">Grad</p>
-                        <input id="city" name="city" type="text">
+                        <p class="slovarica-price-number">Post broj</p>
+                        <input id="postNumber" name="postNumber" type="text">
                     </td>
 
                 </tr>
+
                 <tr>
                     <td>
                         <p class="slovarica-price-number">Broj telefona</p>

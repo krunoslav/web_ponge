@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f50b6b4-21ce-48b6-a64d-ace03f7932ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.backup.hr_brisi" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index_test.html" afterPath="$PROJECT_DIR$/index_bak.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/narudzba.html" afterPath="$PROJECT_DIR$/narudzba_bak.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/narudzba_test.html" afterPath="$PROJECT_DIR$/narudzba.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/narudzba.html" afterPath="$PROJECT_DIR$/narudzba.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ponge_site.iws" afterPath="$PROJECT_DIR$/ponge_site.iws" />
     </list>
     <ignored path="ponge_site.iws" />
@@ -30,18 +26,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2283737">
-              <caret line="544" column="86" selection-start-line="544" selection-start-column="86" selection-end-line="544" selection-end-column="86" />
+            <state vertical-scroll-proportion="-1.3373494">
+              <caret line="547" column="33" selection-start-line="547" selection-start-column="33" selection-end-line="547" selection-end-column="33" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
-                <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
+                <marker date="1530599691291" expanded="true" signature="3275:3428" placeholder="..." />
+                <marker date="1530599691291" expanded="true" signature="3368:3396" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="narudzba.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/narudzba.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38793105">
+              <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1530601728035" expanded="true" signature="3947:4100" placeholder="..." />
+                <marker date="1530601728035" expanded="true" signature="4040:4068" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7627119">
+              <caret line="1107" column="21" selection-start-line="1105" selection-start-column="6" selection-end-line="1107" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +113,7 @@
         <option value="$PROJECT_DIR$/narudzba_test.html" />
         <option value="$PROJECT_DIR$/index_test.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/narudzba.html" />
       </list>
     </option>
   </component>
@@ -506,7 +529,7 @@
       <workItem from="1529133660018" duration="22415000" />
       <workItem from="1529389184455" duration="1907000" />
       <workItem from="1529818453090" duration="4008000" />
-      <workItem from="1530518277587" duration="12512000" />
+      <workItem from="1530518277587" duration="13322000" />
     </task>
     <task id="LOCAL-00001" summary="idea project">
       <created>1528191298390</created>
@@ -530,7 +553,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47279000" />
+    <option name="totallyTimeSpent" value="48089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="720" extended-state="0" />
@@ -639,8 +662,8 @@
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
-            <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
+            <marker date="1530599691291" expanded="true" signature="3275:3428" placeholder="..." />
+            <marker date="1530599691291" expanded="true" signature="3368:3396" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -669,8 +692,8 @@
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="3947:4100" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="4040:4068" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -701,8 +724,8 @@
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
-            <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
+            <marker date="1530599691291" expanded="true" signature="3275:3428" placeholder="..." />
+            <marker date="1530599691291" expanded="true" signature="3368:3396" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -731,8 +754,8 @@
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="3947:4100" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="4040:4068" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -779,8 +802,8 @@
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="3947:4100" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="4040:4068" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -882,28 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2761394">
-          <caret line="1802" column="27" selection-start-line="1802" selection-start-column="27" selection-end-line="1802" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/narudzba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.791667">
-          <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1530539445729" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2168674">
@@ -932,14 +933,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2283737">
-          <caret line="544" column="86" selection-start-line="544" selection-start-column="86" selection-end-line="544" selection-end-column="86" />
+        <state vertical-scroll-proportion="-1.3373494">
+          <caret line="547" column="33" selection-start-line="547" selection-start-column="33" selection-end-line="547" selection-end-column="33" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1530598978145" expanded="true" signature="3275:3428" placeholder="..." />
-            <marker date="1530598978145" expanded="true" signature="3368:3396" placeholder="..." />
+            <marker date="1530599691291" expanded="true" signature="3275:3428" placeholder="..." />
+            <marker date="1530599691291" expanded="true" signature="3368:3396" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7627119">
+          <caret line="1107" column="21" selection-start-line="1105" selection-start-column="6" selection-end-line="1107" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/narudzba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38793105">
+          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#5;n#table#0;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1530601728035" expanded="true" signature="3947:4100" placeholder="..." />
+            <marker date="1530601728035" expanded="true" signature="4040:4068" placeholder="..." />
           </folding>
         </state>
       </provider>
